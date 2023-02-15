@@ -1,0 +1,35 @@
+<html><head>
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body cz-shortcut-listen="true">
+        <header>
+            <div class="container">
+                <h3>Bookmarker</h3>
+            </div>
+        </header>
+        <div class="container">
+            <div class="well">
+                <div class="column">
+                    <h2>Bookmark your favorite sites </h2>
+                    <p>Site Name</p>
+                    <input id="siteName" placeholder="Bookmark Name" type="text">
+                    <div id="nameError" class="alertbox"></div>
+                    <p>Site URL</p>
+                    <input id="siteUrl" placeholder="website URL" type="text">
+                    <div id="urlError" class="alertbox"></div>
+                    <div><button class="btn" id="submitBtn">Submit</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="bookmarkList" class="column">
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <p>© 2019 Bookmarker Inc.</p>
+            </div>
+        </footer>
+        <script src="Main.js"></script>
+    </body></html>
